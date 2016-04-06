@@ -1,0 +1,21 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "FCC - Image Search Abstraction Layer API Basejump",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "image",
+    "search",
+    "FCC",
+    "api"
+  ],
+  "author": "Maulik Darji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.14"
+  }
+}
