@@ -3,4 +3,4 @@ var app=express();
 
 app.get("/",function(req,res){
     res.end("Hello world!");
-}).listen(8080);
+}).listen(process.env.PORT || 8080);
